@@ -1,0 +1,5 @@
+<ul class="nav nav-pills mb-4">
+    <li class="nav-item" *ngFor="let item of listTabs">
+      <a class="nav-link" [ngClass]="{'active': item.active}" (click)="onClick(item.id)">{{ item.title | titlecase }}</a>
+    </li>
+</ul>

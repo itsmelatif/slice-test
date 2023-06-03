@@ -1,0 +1,89 @@
+{
+    "individualList": [
+      {
+        "proposalId": "0a84075e-71b8-44cc-8a2d-a156cad46d3s",
+        "creatorId": "9ac38b5f-22a1-4f22-b01d-a22da96bf31d",
+        "creatorName": "Dara Loemongga",
+        "channel": "instagram",
+        "postType": "post",
+        "followersCount": 2180,
+        "engagementRate": 0,
+        "cpr": 0,
+        "cpe": 0,
+        "price": 0,
+        "reach": 0,
+        "impressions": 0,
+        "views": 0,
+        "likes": 0,
+        "comment": 0,
+        "shares": 0,
+        "clicks": 0,
+        "platformContentId": null
+      },
+      {
+        "proposalId": "0a84075e-71b8-44cc-8a2d-a156cad46d3a",
+        "creatorId": "9ac38b5f-22a1-4f22-b01d-a22da96bf31q",
+        "creatorName": "Jesse Bouman",
+        "channel": "instagram",
+        "postType": "post",
+        "followersCount": 88127,
+        "engagementRate": 0,
+        "cpr": 0,
+        "cpe": 0,
+        "price": 0,
+        "reach": 0,
+        "impressions": 0,
+        "views": 0,
+        "likes": 0,
+        "comment": 0,
+        "shares": 0,
+        "clicks": 0,
+        "platformContentId": null
+      },
+      {
+        "proposalId": "0a84075e-71b8-44cc-8a2d-a156cad46d3s",
+        "creatorId": "9ac38b5f-22a1-4f22-b01d-a22da96bf31f",
+        "creatorName": "Dara Loemongga",
+        "channel": "instagram",
+        "postType": "post",
+        "followersCount": 2180,
+        "engagementRate": 0,
+        "cpr": 0,
+        "cpe": 0,
+        "price": 0,
+        "reach": 1292,
+        "impressions": 1688,
+        "views": 0,
+        "likes": 0,
+        "comment": 0,
+        "shares": 0,
+        "clicks": 0,
+        "platformContentId": null
+      }
+    ],
+    "pageable": {
+      "sort": {
+        "empty": true,
+        "sorted": false,
+        "unsorted": true
+      },
+      "offset": 0,
+      "pageNumber": 0,
+      "pageSize": 10,
+      "paged": true,
+      "unpaged": false
+    },
+    "last": true,
+    "totalPages": 1,
+    "totalElements": 3,
+    "size": 10,
+    "number": 0,
+    "sort": {
+      "empty": true,
+      "sorted": false,
+      "unsorted": true
+    },
+    "first": true,
+    "numberOfElements": 3,
+    "empty": false
+  }

@@ -1,0 +1,24 @@
+<div class="tbl-container bdr">
+    <table class="table">
+        <thead>
+            <ng-content select="#thead"></ng-content>
+        </thead>
+        <tbody>
+            <ng-container *ngIf="length > 0;">
+                <ng-content select="#tbody"></ng-content>
+            </ng-container>
+            <tr *ngIf="length === 0">
+                <td class="not-found" [colSpan]="columnLength">
+                    <ng-container *ngIf="isLoading; else notLoading">
+                        <div class="spinner-border" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </ng-container>
+                    <ng-template #notLoading>
+                        No records found
+                    </ng-template>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

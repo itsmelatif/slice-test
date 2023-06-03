@@ -1,0 +1,36 @@
+{
+    "general": {
+
+    },
+    "reports": {
+        "individual_creator_perfomance": "Performa Kreator Individu",
+        "analyst_recomendations": "Analisis & Rekomendasi"
+    },
+    "button": {
+        "sign_up": "Daftar"
+    },
+    "data": {
+        "creatorName": "Nama Pencipta",
+        "postType": "Jenis Posting",
+        "reach": "Jangkauan",
+        "impressions": "Impresi",
+        "views": "Dilihat",
+        "clicks": "Diklik",
+        "showingPagination": "Menampilkan {{ current }} sampai {{ to }} dari {{ of }} data",
+        "followers": "Pengikut",
+        "ctr": "Rasio Klik (CTR)",
+        "reachPercentage": "Persentase Jangkauan",
+        "engagementRate": "Tingkat Keterlibatan",
+        "totalEngagements":"Keterlibatan Total",
+        "cpr": "Biaya per Jangkauan",
+        "cpi": "Biaya per Tayangan",
+        "cpv": "Biaya per Tampilan",
+        "cpe": "Biaya per Pengikatan"           
+    },
+    "field": {
+        "post": "Postingan",
+        "reach": "Jangkauan",
+        "defaultSearch": "Nama Lengkap",
+        "placeholderTextarea": "Ketik analisis & rekomendasi kampanye Anda di sini..."
+    }
+}

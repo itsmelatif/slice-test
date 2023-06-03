@@ -1,0 +1,17 @@
+.card {
+    border-color: #f0f0f0!important;
+
+    .title {
+        line-height: 22px;
+        color: #606974;
+        font-size: 14px;
+        font-weight: 400;
+        min-height: 45px;
+    }
+
+    .value {
+        font-size: 20px!important;
+        font-weight: 500;
+        color: #0e0e0e;
+    }
+}

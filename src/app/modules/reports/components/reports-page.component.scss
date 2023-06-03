@@ -1,0 +1,23 @@
+label {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+textarea:disabled{
+    border-color: #dfe1e2!important;
+    cursor: not-allowed!important;
+    box-sizing: border-box;
+    border: 1px solid #dfe1e2;
+    border-radius: 8px;
+    background: #fcfcff!important;
+    color: #0e0e0e;
+    font-size: 14px;
+    height: 150px;
+}
+
+p.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}

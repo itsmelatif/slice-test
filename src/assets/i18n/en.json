@@ -1,0 +1,36 @@
+{
+    "general": {
+
+    },
+    "reports": {
+        "individual_creator_perfomance": "Individual Creator Performance",
+        "analyst_recomendations": "Analysis & Recommendations"
+    },
+    "button": {
+        "sign_up": "sign up"
+    },
+    "data": {
+        "creatorName": "Creator Name",
+        "postType": "Post Type",
+        "reach": "Reach",
+        "impressions": "Impressions",
+        "views": "views",
+        "clicks": "clicks",
+        "showingPagination": "Showing {{ current }} to {{ to }} of {{ of }} entries",
+        "followers": "Followers",
+        "ctr": "Click Rate (CTR)",
+        "reachPercentage": "Percentage of Reach",
+        "engagementRate": "Engagement Rate",
+        "totalEngagements":"Total Engagements",
+        "cpr": "Cost per Reach",
+        "cpi": "Cost per Impressions",
+        "cpv": "Cost per Views",
+        "cpe": "Cost per Engagements"   
+    },
+    "field": {
+        "post": "Post",
+        "reach": "Reach",
+        "defaultSearch": "Full Name",
+        "placeholderTextarea": "Type your campaign analysis & recommendations here..."
+    }
+}

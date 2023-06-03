@@ -1,0 +1,29 @@
+<app-filter-table 
+[listSearch]="['post', 'reach']"
+(search)="onSearch($event)">
+</app-filter-table>
+
+<app-table 
+    [length]="dataSourceTable.length"
+    [columnLength]="columnTable.length"
+    [isLoading]="isLoading">
+    <ng-container id="thead">
+      <tr>
+        <ng-container *ngFor="let item of columnTable">
+          <th scope="col">{{ "data."+item | translate | titlecase }}</th>
+        </ng-container>
+      </tr>
+    </ng-container>
+    <ng-container id="tbody">
+      <tr *ngFor="let item of dataSourceTable">
+        <td>{{ item.creatorName | titlecase }}</td>        
+        <td>{{ item.postType | titlecase }}</td>
+        <td>{{ item.reach | number: '1.2-2' }}</td>
+        <td>{{ item.impressions | number: '1.2-2' }}</td>
+        <td>{{ item.views | number: '1.2-2' }}</td>
+        <td>{{ item.clicks | number: '1.2-2' }}</td>
+    </tr>
+    </ng-container>
+  </app-table>
+
+  <app-table-pagination [length]="dataSourceTable.length" [totalPages]="totalPages" (changePagination)="onChangePagination($event)"></app-table-pagination>

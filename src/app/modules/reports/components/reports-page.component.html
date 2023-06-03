@@ -1,0 +1,31 @@
+<app-layout>
+
+  <app-tabs 
+    [items]="listTabs"
+    (onClickTabs)="onClickTabs($event)">
+  </app-tabs>
+
+  <app-dynamic-theme [componentType]="laodComponent.topComponent"></app-dynamic-theme>
+
+  <div class="row">
+    <div class="col-12">
+      <p class="title"> {{ "reports.individual_creator_perfomance" | translate }}  </p>
+    </div>
+  </div>
+
+  <app-tabs 
+    [items]="listTabs"
+    (onClickTabs)="onClickTabs($event)">
+  </app-tabs>    
+
+  <app-dynamic-theme [componentType]="laodComponent.bottomComponent"></app-dynamic-theme>
+
+  <div class="row mt-5">
+    <div class="col-12">
+      <p class="title"> {{ "reports.analyst_recomendations" | translate }} </p>
+      <textarea class="form-control" [placeholder]="getTranslate('field.placeholderTextarea')" rows="3" disabled></textarea>
+    </div>
+  </div>  
+
+</app-layout>
+  

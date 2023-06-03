@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-3">
+        <div class="form-group mb-3">
+            <i class="bi bi-search icon-search"></i>
+            <input type="text" class="form-control" [placeholder]="getTranslate('field.defaultSearch')" #search (keyup)="onChangeText(search.value)">
+        </div>
+    </div>
+
+    <div class="col-3">
+        <div class="form-group mb-3">
+            <div class="select-filter">
+                <span class="icon-select">
+                    <ng-container *ngIf="!activeListDropdown; else notActive">
+                        <i class="bi bi-chevron-down"></i>
+                    </ng-container>
+
+                    <ng-template #notActive>
+                        <i class="bi bi-chevron-up"></i>
+                    </ng-template>                    
+                </span>
+                <input type="text" class="form-control select" [value]="valueList | titlecase" readonly>
+                <div class="dropdown-select" [ngClass]="{'active': activeListDropdown}">
+                    <ul>
+                        <li class="list-item" *ngFor="let item of listSearch" (click)="onChangeSelect(item)">{{ "field."+item | translate | titlecase }}</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

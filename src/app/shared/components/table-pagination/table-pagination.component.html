@@ -1,0 +1,35 @@
+
+<div class="row">
+    <div class="col-md-6 show_entries">
+        {{ "data.showingPagination" | translate: {current: showing.current, to: showing.to, of: showing.of} }}
+    </div>
+    <div class="col-md-6 show_pagination">
+        <div class="d-flex justify-content-end">
+            <div class="p-1">
+                <ul>
+                    <li>
+                        <button class="btn btn-sm btn-light" (click)="onPrevPage(true)" [disabled]="firstPage"><i class="bi bi-chevron-double-left"></i></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-sm btn-light" (click)="onPrevPage()" [disabled]="firstPage"><i class="bi bi-chevron-left"></i></button>
+                    </li>
+                    <ng-container *ngFor="let item of currentlistPage">
+                        <li> <button class="btn btn-sm btn-light" [ngClass]="{'active': item === activePage}">{{ item+1}}</button></li>
+                    </ng-container>
+                    
+                    <li>
+                        <button class="btn btn-sm btn-light" (click)="onNextPage()" [disabled]="lastPages"><i class="bi bi-chevron-right"></i></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-sm btn-light" (click)="onNextPage(true)" [disabled]="lastPages"><i class="bi bi-chevron-double-right"></i></button>
+                    </li>                    
+                </ul>
+            </div>
+            <div class="py-1">
+                <select class="form-select"  #page (change)="onChangeListPage(page.value)">
+                    <option value="{{ item }}" *ngFor="let item of listPageNumbers">{{ item }}</option>
+                </select>
+            </div>
+          </div>
+    </div>
+</div>

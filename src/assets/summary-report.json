@@ -1,0 +1,35 @@
+{
+"summary": {
+    "campaignName": "Aqua Pilot Campaign",
+    "channel": "instagram",
+    "postType": "post",
+    "startDate": "2023-05-28T17:00:00Z",
+    "endDate": "2023-06-04T17:00:00Z",
+    "totalSpend": 0,
+    "reach": 1292,
+    "impressions": 1688,
+    "followers": 2180,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "saves": 0,
+    "clicks": 0,
+    "ctr": 0,
+    "totalEngagements": 439,
+    "engagementRate": 33.978328173374614,
+    "cpr": 1,
+    "cpv": 1,
+    "cpi": 1,
+    "cpe": 1,
+    "reachPercentage": 0,
+    "chartEngagementByType": {
+      "likes": 76,
+      "comments": 12,
+      "saves": 4
+    },
+    "chartTargetVsActualImpression": {
+      "targetER": 0,
+      "realER": 33.978328173374614
+    }
+  }
+}

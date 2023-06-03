@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-8">
+      <app-card [backgroundColor]="'#f6f6f6'" [class]="'py-5'">
+        <div class="container">
+          <div class="row">
+            <div class="col-3" *ngFor="let item of listItem">
+              <app-card 
+                [type]="'title-value'" 
+                [item]="item"
+                [isLoading]="isLoading">
+              </app-card>
+            </div>
+          </div>
+
+          
+          <div class="row">
+            <div class="col-6" *ngFor="let item of listItemCost">
+              <app-card [type]="'title-value'" [item]="item" [backgroundColor]="'#f4fcf7'" [isLoading]="isLoading"></app-card>
+            </div>
+          </div>           
+        </div>
+      </app-card>
+    </div>
+    <div class="col-4">
+      <app-card>Tester</app-card>
+    </div>
+  </div>
+  <div class="row mt-5">
+
+  </div>
